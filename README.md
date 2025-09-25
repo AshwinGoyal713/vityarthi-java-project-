@@ -188,15 +188,6 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Java I/O Streams | NIO.2 Files.readAllLines (char stream). |
 | Java Reader/Writer | util/InputHelper (Scanner as Reader); System.out as Writer. |
 
-### 6. Database Applications with JDBC & Java Persistence API
-| Topic | File/Class/Method | 
-|-------|-------------------|
-| JDBC Layout/Connecting/Queries | Not implemented (console/file-based; used CSV/NIO.2 for persistence—no SQL/DB driver). Could add H2 in-memory DB later. |
-| Submitting Queries/Results | N/A (Streams for in-memory "queries" like searchByDept). |
-| JDBC Driver External | N/A. |
-| Java Persistence API (JPA) | Not implemented (EE feature for ORM; SE files cover data storage here). |
-
-
 ## Notes on Enabling Assertions & Sample Commands
 Assertions check code assumptions (e.g., credits >0)—off by default, but enable for testing (syllabus: debug invariants like non-null IDs).
 - **Enable**: `java -ea -cp bin edu.ccrm.cli.MainCLI`.
