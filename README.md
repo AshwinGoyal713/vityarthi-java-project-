@@ -193,7 +193,7 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Submitting Queries/Results | N/A (Streams for in-memory "queries" like searchByDept). |
 | JDBC Driver External | N/A. |
 | Java Persistence API (JPA) | Not implemented (EE feature for ORM; SE files cover data storage here). |
-Demo Video
+##Demo Video
 For a quick walkthrough, check out my 3-minute demo video on YouTube:https://youtu.be/n0h1ZW7S0T0?feature=shared . I show starting the app, adding a student, enrolling in a course , assigning a grade, running a GPA report , Recorded on my Windows setup with Eclipse—feel free to skip around! 
 
 ## Notes on Enabling Assertions & Sample Commands
