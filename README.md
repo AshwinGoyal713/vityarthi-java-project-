@@ -82,7 +82,6 @@ I did this on Windows 11—took ~10 mins.
 4. **Eclipse Setup**: eclipse.org > Download "Eclipse IDE for Java Developers" > Extract > Run eclipse.exe > Workspace: Pick folder > File > New > Java Project > "CCRM" > Uncheck module > Finish.
    - Right-click src > New > Package > edu.ccrm.cli (etc.) > Paste code.
    - Run: Right-click MainCLI.java > Run As > Java Application.
-   - Assertions: Run Configurations > Arguments > VM args > "-ea" > Apply > Run.
    - ![Eclipse Project Setup](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/eclipse%20project%20setup%20display.png)
  (Package Explorer with src expanded).
    - ![Eclipse Project Output](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/Eclipse%20project%20output.png)
