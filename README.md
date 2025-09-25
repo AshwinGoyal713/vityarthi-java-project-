@@ -1,6 +1,6 @@
 # Campus Course & Records Manager (CCRM)
 
-Hey, this is my Java SE console app for managing campus stuff—students, courses, enrollments, grades, transcripts, and basic file ops like import/export/backup. It's menu-driven: you pick numbers to add data, enroll students (with a max 18-credit rule that throws an exception if you overdo it), assign grades, compute GPAs, or back up to a folder. I built it to cover the syllabus topics, focusing on OOP, flow control, exceptions, collections, and I/O streams. No database (JDBC/JPA not needed for this local setup), but everything else is in there.
+Hey, this is my Java SE console app for managing campus stuff—students, courses, enrollments, grades, transcripts, and basic file ops like import/export/backup. It's menu-driven: you pick numbers to add data, enroll students (with a max -credit rule that throws an exception if you overdo it), assign grades, compute GPAs, or back up to a folder. I built it to cover the syllabus topics, focusing on OOP, flow control, exceptions, collections, and I/O streams. No database (JDBC/JPA not needed for this local setup), but everything else is in there.
 
 
 ## How to Run the Project
@@ -88,10 +88,8 @@ I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fi
    - ![Program Run](screenshots/program-run.png) (Console with menu after run).
    - ![Backup Folder](screenshots/backup-folder.png) (File Explorer showing data/backup_YYYY-MM-DD_HH-mm folder).
 
-Test: Run MainCLI—menu loads. If "java not recognized", double-check PATH (cmd: echo %PATH%). I screenshot my exact steps.
-
 ## Mapping Table: Syllabus Topic → File/Class/Method
-Full syllabus coverage—topic by topic, with file/method + description. Focused on 1-5 (console app); 6 (DB) noted as N/A (file-based persistence instead). Justifications tie to code.
+Full syllabus coverage—topic by topic, with file/method + description. Focused on 1-5 (console app). Justifications tie to code.
 
 ### 1. Java Introduction
 | Topic | File/Class/Method | Description |
@@ -170,7 +168,6 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 |-------|-------------------|
 | Introduction/Thread Creations | Not implemented (single-threaded console; could add Thread for backup, but not needed). |
 | Thread Life Cycle/Methods | N/A (no threads—syllabus focus, but app is sequential). |
-| Java Synchronization | N/A. |
 | User-defined packages | All: package edu.ccrm.domain; etc. (custom hierarchy). |
 
 ### 5. Java List & I/O Streams
@@ -183,8 +180,6 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Java Collection Interface | service/StudentService.getAllStudents() returns Collection<List>. |
 | Java List Interface | domain/Student.getEnrollments() returns List<Enrollment>. |
 | Java ArrayList | domain/Student.enrollments = new ArrayList<>(). |
-| Java Vector | Not used (ArrayList faster/non-sync). |
-| Java Stack | Not used (no LIFO needed). |
 | Byte/Char Streams | io/FileHandler.exportData() (Files.write for bytes; Scanner for char input). |
 | Java I/O Streams | NIO.2 Files.readAllLines (char stream). |
 | Java Reader/Writer | util/InputHelper (Scanner as Reader); System.out as Writer. |
