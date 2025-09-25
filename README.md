@@ -85,7 +85,8 @@ I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fi
    - Run: Right-click MainCLI.java > Run As > Java Application.
    - Assertions: Run Configurations > Arguments > VM args > "-ea" > Apply > Run.
    - ![Eclipse Setup](eclipse-project-setup-and-run.png) (Package Explorer with src expanded).
-   - ![Program Run](screenshots/program-run.png) (Console with menu after run).
+   - ![Project Output](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/ECLIPSE%20PROJECT%20OUTPUT%202.png)
+ (Console with menu after run).
    - ![Backup Folder](screenshots/backup-folder.png) (File Explorer showing data/backup_YYYY-MM-DD_HH-mm folder).
 
 ## Mapping Table: Syllabus Topic → File/Class/Method
