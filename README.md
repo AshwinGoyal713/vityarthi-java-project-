@@ -70,24 +70,26 @@ SE was right: Handles syllabus topics (e.g., Streams for reports) without extras
 I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fixed it). Screenshots in `/screenshots` (take yours during setup).
 
 1. **Install JDK**: oracle.com/java > JDK 17/21 Windows x64 > Download MSI > Run > Next/Next (default: C:\Program Files\Java\jdk-17).
-   - ![JDK Install](screenshots/jdk-install.png) (Installer window).
-
+   
 2. **Environment Variables**: Start > "Edit the system environment variables" > Environment Variables > System vars > Path > Edit > New > Add `C:\Program Files\Java\jdk-17\bin` > OK.
    - Set JAVA_HOME: New var > Name: JAVA_HOME > Value: C:\Program Files\Java\jdk-17 > OK.
    - Restart cmd/PowerShell.
 
 3. **Verify**: Cmd > `java -version` > Should output "java version '17.0.x'" or similar.
-   - 
+   -![JDK Installation Verification](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/JDK%20installation%20verification.png)
+ 
  (Cmd showing version).
 
 4. **Eclipse Setup**: eclipse.org > Download "Eclipse IDE for Java Developers" > Extract > Run eclipse.exe > Workspace: Pick folder > File > New > Java Project > "CCRM" > Uncheck module > Finish.
    - Right-click src > New > Package > edu.ccrm.cli (etc.) > Paste code.
    - Run: Right-click MainCLI.java > Run As > Java Application.
    - Assertions: Run Configurations > Arguments > VM args > "-ea" > Apply > Run.
-   - ![Eclipse Setup](eclipse-project-setup-and-run.png) (Package Explorer with src expanded).
+   - ![Eclipse Project Setup](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/eclipse%20project%20setup%20display.png)
+ (Package Explorer with src expanded).
    - ![Project Output](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/ECLIPSE%20PROJECT%20OUTPUT%202.png)
  (Console with menu after run).
-   - ![Backup Folder](screenshots/backup-folder.png) (File Explorer showing data/backup_YYYY-MM-DD_HH-mm folder).
+   -![Backup File Setup](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/backupfile%20setup.png)
+.
 
 ## Mapping Table: Syllabus Topic → File/Class/Method
 Full syllabus coverage—topic by topic, with file/method + description. Focused on 1-5 (console app). Justifications tie to code.
