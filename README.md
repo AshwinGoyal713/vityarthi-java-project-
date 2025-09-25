@@ -42,8 +42,8 @@ If issues: Refresh project (F5), clean (Project > Clean). I had a classpath hicc
 - **Java 1.0 (1995)**: Sun's debut—JVM/JRE/JDK born, "write once run anywhere" vs C/C++'s platform-specific compiles.
 - **Java 1.1 (1997)**: Added inner classes/reflection; safer than C++ (no raw pointers).
 - **Java 5 (2004)**: Generics/enums/autoboxing/for-each—fixed C++ template bugs, made loops cleaner.
-- **Java 8 (2014)**: Lambdas/Streams/functional interfaces—huge for concise code (I used in reports).
-- **Java 9 (2017)**: Modules for better packaging (skipped here—kept it simple).
+- **Java 8 (2014)**: Lambdas/Streams/functional interfaces—huge for concise code .
+- **Java 9 (2017)**: Modules for better packaging .
 - **Java 17 (2021)**: Records/sealed classes/LTS—modern, secure evolution from C++'s manual memory.
 
 Java's grown from applets to cloud—beats C/C++ on portability/safety, but slower for low-level.
@@ -66,7 +66,7 @@ SE was right: Handles syllabus topics (e.g., Streams for reports) without extras
 **Interaction**: .java code → JDK javac → .class bytecode → JRE loads → JVM runs (GC avoids C++ leaks). For CCRM: JDK builds, JRE/JVM runs menus/backups—JVM handles recursion/Streams seamlessly.
 
 ## Windows Installation Steps (with Screenshots)
-I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fixed it). Screenshots in `/screenshots` (take yours during setup).
+I did this on Windows 11—took ~10 mins.
 
 1. **Install JDK**: oracle.com/java > JDK 17/21 Windows x64 > Download MSI > Run > Next/Next (default: C:\Program Files\Java\jdk-17).
    
@@ -74,7 +74,7 @@ I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fi
    - Set JAVA_HOME: New var > Name: JAVA_HOME > Value: C:\Program Files\Java\jdk-17 > OK.
    - Restart cmd/PowerShell.
 
-3. **Verify**: Cmd > `java -version` > Should output "java version '17.0.x'" or similar.
+3. **Verify**: Cmd > `java -version` > Should output "java version " or similar.
    -![JDK Installation Verification](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/JDK%20installation%20verification.png)
  
  (Cmd showing version).
