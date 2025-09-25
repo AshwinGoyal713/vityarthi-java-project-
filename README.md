@@ -1,7 +1,6 @@
 # Campus Course & Records Manager (CCRM)
 
-Hey, this is my Java SE console app for managing campus stuff—students, courses, enrollments, grades, transcripts, and basic file ops like import/export/backup. It's menu-driven: you pick numbers to add data, enroll students (with a max -credit rule that throws an exception if you overdo it), assign grades, compute GPAs, or back up to a folder. I built it to cover the syllabus topics, focusing on OOP, flow control, exceptions, collections, and I/O streams. No database (JDBC/JPA not needed for this local setup), but everything else is in there.
-
+Hey, this is my Java SE console app for managing campus stuff—students, courses, enrollments, grades, transcripts, and basic file ops like import/export/backup. It's menu-driven: you pick numbers to add data, enroll students (with a max -credit rule that throws an exception if you overdo it), assign grades, compute GPAs, or back up to a folder. I built it to cover the syllabus topics, focusing on OOP, flow control, exceptions, collections, and I/O streams. 
 
 ## How to Run the Project
 For a quick walkthrough, check out my 3-minute demo video on YouTube:https://youtu.be/n0h1ZW7S0T0?feature=shared . I show starting the app, adding a student, enrolling in a course , assigning a grade, running a GPA report , Recorded on my Windows setup with Eclipse—feel free to skip around! 
@@ -86,7 +85,7 @@ I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fi
    - Assertions: Run Configurations > Arguments > VM args > "-ea" > Apply > Run.
    - ![Eclipse Project Setup](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/eclipse%20project%20setup%20display.png)
  (Package Explorer with src expanded).
-   - ![Project Output](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/ECLIPSE%20PROJECT%20OUTPUT%202.png)
+   - ![Eclipse Project Output](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/Eclipse%20project%20output.png)
  (Console with menu after run).
    -![Backup File Setup](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/OneDrive/Desktop/project234/CCRM/bin/edu/ccrm/backupfile%20setup.png)
 .
