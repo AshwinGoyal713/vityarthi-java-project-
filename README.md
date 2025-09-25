@@ -129,8 +129,8 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Java enum Class | domain/Semester (simple enum). |
 
 #### Java OOP (Inheritance & Polymorphism)
-| Topic | File/Class/Method | Description |
-|-------|-------------------|-------------|
+| Topic | File/Class/Method | 
+|-------|-------------------|
 | Java Inheritance | domain/Student extends BasePerson. |
 | Java Method Overriding | domain/Student.toString() overrides BasePerson. |
 | Java super Keyword | domain/Student ctor: super(regNo, fullName, email, date). |
@@ -140,8 +140,8 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Java Encapsulation | domain/BasePerson: private fields + public getters/setters. |
 
 #### Java OOP (Other Types)
-| Topic | File/Class/Method | Description |
-|-------|-------------------|-------------|
+| Topic | File/Class/Method | 
+|-------|-------------------|
 | Nested & Inner Class | domain/Student.ProfileView (inner, accesses outer via this). |
 | Java Static Class | config/SystemSetup (static getInstance). |
 | Java Anonymous Class | util/FolderUtils.getFolderSizeRecursively() (new SimpleFileVisitor<>() {}). |
@@ -153,8 +153,8 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 
 ### 4. Java Exception Handling & Multithreading
 #### Exception Handling
-| Topic | File/Class/Method | Description |
-|-------|-------------------|-------------|
+| Topic | File/Class/Method | 
+|-------|-------------------|
 | Java Exceptions | exception/StudentNotFoundException (checked, extends Exception). |
 | Java Exception Handling | cli/MainCLI.handleStudents() (try-catch for findByRegNoOrThrow). |
 | Java try...catch | service/InMemoryEnrollmentService.enroll() (try for NIO, catch IOException). |
@@ -163,16 +163,16 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Java Annotations Types | domain/BasePerson.toString() (@Override implicit). |
 
 #### Multithreading
-| Topic | File/Class/Method | Description |
-|-------|-------------------|-------------|
+| Topic | File/Class/Method | 
+|-------|-------------------|
 | Introduction/Thread Creations | Not implemented (single-threaded console; could add Thread for backup, but not needed). |
 | Thread Life Cycle/Methods | N/A (no threads—syllabus focus, but app is sequential). |
 | Java Synchronization | N/A. |
 | User-defined packages | All: package edu.ccrm.domain; etc. (custom hierarchy). |
 
 ### 5. Java List & I/O Streams
-| Topic | File/Class/Method | Description |
-|-------|-------------------|-------------|
+| Topic | File/Class/Method | 
+|-------|-------------------|
 | String classes/methods/ops | io/FileHandler.importData() (split, trim, + for lines). |
 | 1-D Arrays & Ops | service/InMemoryStudentService.getAllStudents() (List as 1D array-like). |
 | 2-D/Jagged Arrays & Ops | Not used (no matrices needed; Lists suffice). |
@@ -187,8 +187,8 @@ Full syllabus coverage—topic by topic, with file/method + description. Focused
 | Java Reader/Writer | util/InputHelper (Scanner as Reader); System.out as Writer. |
 
 ### 6. Database Applications with JDBC & Java Persistence API
-| Topic | File/Class/Method | Description |
-|-------|-------------------|-------------|
+| Topic | File/Class/Method | 
+|-------|-------------------|
 | JDBC Layout/Connecting/Queries | Not implemented (console/file-based; used CSV/NIO.2 for persistence—no SQL/DB driver). Could add H2 in-memory DB later. |
 | Submitting Queries/Results | N/A (Streams for in-memory "queries" like searchByDept). |
 | JDBC Driver External | N/A. |
