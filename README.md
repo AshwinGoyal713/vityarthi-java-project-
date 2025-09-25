@@ -77,7 +77,8 @@ I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fi
    - Restart cmd/PowerShell.
 
 3. **Verify**: Cmd > `java -version` > Should output "java version '17.0.x'" or similar.
-   - ![JDK Version](screenshots/jdk-version.png) (Cmd showing version).
+   - ![JDK Version](![JDK installation verification](https://github.com/AshwinGoyal713/vityarthi-java-project-/raw/project-clean/bin/edu/ccrm/JDK%20installation%20verification.png)
+ (Cmd showing version).
 
 4. **Eclipse Setup**: eclipse.org > Download "Eclipse IDE for Java Developers" > Extract > Run eclipse.exe > Workspace: Pick folder > File > New > Java Project > "CCRM" > Uncheck module > Finish.
    - Right-click src > New > Package > edu.ccrm.cli (etc.) > Paste code.
