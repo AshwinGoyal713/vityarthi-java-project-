@@ -4,6 +4,8 @@ Hey, this is my Java SE console app for managing campus stuff—students, course
 
 
 ## How to Run the Project
+For a quick walkthrough, check out my 3-minute demo video on YouTube:https://youtu.be/n0h1ZW7S0T0?feature=shared . I show starting the app, adding a student, enrolling in a course , assigning a grade, running a GPA report , Recorded on my Windows setup with Eclipse—feel free to skip around! 
+
 
 ### JDK Version
 - Built/tested with **Java 17+ SE** (I used 21—works great for Streams and LocalDateTime).
@@ -200,5 +202,3 @@ Assertions check code assumptions (e.g., credits >0)—off by default, but enabl
 - **Enable**: `java -ea -cp bin edu.ccrm.cli.MainCLI`.
 - **Example**: In enroll(), `assert credits > 0 : "Credits must be >0";`—fails with AssertionError if invalid (only with -ea).
 - **Why?**: Complements exceptions (e.g., throw for business errors, assert for dev checks like regNo != null in addStudent).
-###Demo Video
-For a quick walkthrough, check out my 3-minute demo video on YouTube:https://youtu.be/n0h1ZW7S0T0?feature=shared . I show starting the app, adding a student, enrolling in a course , assigning a grade, running a GPA report , Recorded on my Windows setup with Eclipse—feel free to skip around! 
