@@ -83,7 +83,7 @@ I did this on Windows 11—took ~10 mins, but PATH was finicky (restarted cmd fi
    - Right-click src > New > Package > edu.ccrm.cli (etc.) > Paste code.
    - Run: Right-click MainCLI.java > Run As > Java Application.
    - Assertions: Run Configurations > Arguments > VM args > "-ea" > Apply > Run.
-   - ![Eclipse Setup](screenshots/eclipse-setup.png) (Package Explorer with src expanded).
+   - ![Eclipse Setup](eclipse-project-setup-and-run.png) (Package Explorer with src expanded).
    - ![Program Run](screenshots/program-run.png) (Console with menu after run).
    - ![Backup Folder](screenshots/backup-folder.png) (File Explorer showing data/backup_YYYY-MM-DD_HH-mm folder).
 
